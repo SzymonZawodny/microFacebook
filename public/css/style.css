@@ -1,7 +1,6 @@
 /* Space out content a bit */
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -16,12 +15,18 @@ body {
 .header {
   padding-bottom: 20px;
   border-bottom: 1px solid #e5e5e5;
+  background-color: #4267b2;
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: 20px;
   line-height: 40px;
+  color: white;
+}
+.header a{
+  color: white;
 }
 
 /* Custom page footer */
@@ -29,6 +34,8 @@ body {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 /* Customize container */
@@ -80,8 +87,57 @@ body {
 
 .page-header{
   margin-top:0;
+  margin-left: 20px;
 }
 
-footer{
-  margin-top:40px;
+.posts{
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+}
+.new-post-form{
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  border: solid 1px #e5e5e5;
+  border-radius: 5px;
+  font-family: "Helvetica Neue";
+  margin-bottom: 30px;
+}
+
+.button{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.post{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  border: solid 1px #e5e5e5;
+  border-radius: 5px;
+  font-family: "Helvetica Neue";
+  margin-bottom: 30px;
+  background-color: #e5e5e5;
+}
+
+.separator{
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 30px;
+}
+
+.post-header{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.rate{
+  display: inline-block;
+}
+.post-content{
+  height: auto;
 }

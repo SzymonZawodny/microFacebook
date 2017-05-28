@@ -1,9 +1,16 @@
 var express = require('express');
 var router = express.Router();
 
-// Get Homepage
 router.get('/', ensureAuthenticated, function(req, res){
 	res.render('index');
+});
+
+router.get('/community', ensureAuthenticated, function(req, res){
+    res.render('community');
+});
+
+router.get('/messages', ensureAuthenticated, function(req, res){
+    res.render('messages');
 });
 
 function ensureAuthenticated(req, res, next){

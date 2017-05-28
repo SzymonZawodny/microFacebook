@@ -90,7 +90,7 @@ body {
   margin-left: 20px;
 }
 
-.posts{
+.box{
   display: flex;
   justify-content:center;
   flex-direction: column;
@@ -115,9 +115,6 @@ body {
 }
 
 .post{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-self: center;
   border: solid 1px #e5e5e5;
   border-radius: 5px;
@@ -140,4 +137,55 @@ body {
 }
 .post-content{
   height: auto;
+}
+
+.community{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  border: solid 1px #e5e5e5;
+  border-radius: 5px;
+  font-family: "Helvetica Neue";
+  margin-bottom: 30px;
+  padding: 0;
+  display: inline-block;
+}
+
+.community-header{
+  font-size: large;
+  color: #4267b2;
+  background-color: #e5e5e5;
+}
+.finder{
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.community-resaults-already-friend{
+  display: inline-block;
+  background-color: #e5e5e5;
+  color: #4267b2;
+}
+.community-resaults-already-friend p{
+  margin-top: 10px;
+}
+.community-resaults-non-friend p{
+  margin-top: 10px;
+}
+.community-resaults-non-friend{
+  display: inline-block;
+  background-color: #e5e5e5;
+  color: #4267b2;
+}
+
+.resaults{
+  height: auto;
+  display: block;
+}
+
+.community-resaults-non-friend .list-group-item:hover {
+  background-color: #5cb85c;
 }

@@ -1,7 +1,7 @@
 {
   "name": "microFacebook",
   "version": "1.0.0",
-  "description": "Simple authentication system",
+  "description": "Simple facebook",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
